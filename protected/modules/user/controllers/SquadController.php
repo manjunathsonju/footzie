@@ -15,7 +15,6 @@ class SquadController extends Controller
             $model = new SquadForm;
             $profile=new Profile;
             $profile->regMode = true;
-            
 			// ajax validator
 			if(isset($_POST['ajax']) && $_POST['ajax']==='squad-form')
 			{
